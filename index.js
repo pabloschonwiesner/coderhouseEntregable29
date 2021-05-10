@@ -32,7 +32,7 @@ if(modo == 'cluster') {
     //   res.end('Hello world\n')
     // }).listen(8000)
   
-    console.log(`Worker ${process.pid} started`);
+    console.log(`Worker ${process.pid} started `);
   }
 } else {
   initApp()

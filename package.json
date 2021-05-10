@@ -6,10 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
-    "foreverProdFork": "forever start index.js",
-    "foreverProdCluster": "forever start index.js modo=cluster",
-    "pm2ProdFork": "pm2 start index.js --name='ServerPM2fork' --watch",
-    "pm2ProdCluster": "pm2 start index.js modo=cluster"
+    "foreverProdFork": "forever start index.js --watch",
+    "foreverProdCluster": "forever start index.js modo=cluster --watch"
+    
   },
   "keywords": [],
   "author": "",
